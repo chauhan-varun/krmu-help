@@ -13,7 +13,7 @@ app.use(express.json());
 
 // MongoDB Connection
 const MONGODB_URI = process.env.MONGODB_URI;
-const BACKEND_URL = process.env.BACKEND_URL || 'http://localhost:3000';
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
@@ -49,7 +49,6 @@ app.post('/api/submit-form', async (req, res) => {
   }
 });
 
-const serverUrl = new URL(BACKEND_URL);
-app.listen(serverUrl.port, serverUrl.hostname, () => {
-  console.log(`Server running on ${BACKEND_URL}`);
+app.listen(PORT, () => {
+  console.log(`Server running on ${PORT}`);
 });
