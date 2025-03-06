@@ -133,7 +133,7 @@ function Login() {
               }}
               className="text-blue-400 hover:text-blue-300 text-sm font-medium"
             >
-              {isLogin ? "Don't have an account? Sign up" : 'Already have an account? Sign in'}
+              
             </button>
           </div>
         </form>
