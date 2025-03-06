@@ -36,7 +36,7 @@ function Home() {
             <TypewriterText text="Affordable Website Development" typingSpeed={100} pauseDuration={3000} />
           </h1>
           <p className="text-lg sm:text-xl text-gray-300">
-            Starting at just <span className="font-bold text-blue-400">₹150</span>, get a
+            Starting at just <span className="font-bold text-blue-400">₹200</span>, get a
             <span className="font-bold"> fully responsive website</span> for your
             <span className="font-bold"> mini project, startup, or any idea!</span> Plus, get
             <span className="font-bold hover:text-blue-400 transition-colors duration-300"> guidance on web development</span> from start to finish.

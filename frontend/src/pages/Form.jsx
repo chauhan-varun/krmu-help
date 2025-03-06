@@ -9,7 +9,7 @@ function Form() {
     name: '',
     expectedTime: '',
     techStack: '',
-    amount: '150',
+    amount: '200',
     phone: ''
   });
   const [errors, setErrors] = useState({});
@@ -71,7 +71,7 @@ function Form() {
             name: '',
             expectedTime: '',
             techStack: '',
-            amount: '150',
+            amount: '200',
             phone: ''
           });
         } else {
@@ -195,7 +195,7 @@ function Form() {
               name="amount"
               value={formData.amount}
               onChange={handleChange}
-              min="150"
+              min="200"
               className="w-full px-4 py-2 bg-gray-800 border border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-colors text-white"
             />
             <p className="text-gray-400 text-sm mt-1">Note: The final price may vary based on project complexity and timeline requirements.</p>
