@@ -123,6 +123,15 @@ function Home() {
         {/* Social Links Section */}
         <section className="flex flex-col sm:flex-row justify-center gap-4 mt-8">
           <a
+            href="https://itsvarun.me"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 bg-gray-800 hover:bg-gray-700 text-white px-6 py-3 rounded-lg font-bold text-lg transition-colors border border-gray-700 hover:border-gray-600 w-full sm:w-auto"
+          >
+            <FaLightbulb className="w-6 h-6" />
+            View My Portfolio
+          </a>
+          <a
             href="https://x.com/varunchauhanx"
             target="_blank"
             rel="noopener noreferrer"
@@ -144,6 +153,7 @@ function Home() {
             </svg>
             GitHub
           </a>
+          
         </section>
 
         {/* CTA Section */}
